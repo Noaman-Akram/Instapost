@@ -73,7 +73,7 @@ class Main extends Component {
 
             {
                 this.state.screen === "photos" && (<>
-            <Title title = "Instakhram"/>            
+            <Title title = "Instapost"/>            
             <Posts_Container navigate = {this.navigateToAdd} posts ={this.state.posts} removePhoto={this.removePhoto}/>
              <Playground/> 
              </>)
