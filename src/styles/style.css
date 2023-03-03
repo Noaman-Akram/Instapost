@@ -16,6 +16,16 @@ html {
     color: black;
     text-decoration: none;
    }
+   h3 {
+    font-family: billabong, 'billabongregular';
+    text-align: center;
+    font-weight: 100;
+    font-size: 8rem;
+    margin: 2rem 0;
+    letter-spacing: -1px;
+    color: black;
+    text-decoration: none;
+   }
    h1 a {
     color: black;
     text-decoration: none;
@@ -103,12 +113,19 @@ html {
     resize: vertical;
    }
    .addIcon {
-    background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;
+    background: url("https://cdn-icons-png.flaticon.com/512/1828/1828817.png") center no-repeat;
     background-size: contain;
     padding: 40px;
     display: table;
     margin: 20px auto;
-    border: none;
+    border: 1px solid green;
+   }
+   .backIcon {
+    background: url("https://cdn-icons-png.flaticon.com/512/2997/2997744.png") center no-repeat;
+    background-size: contain;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid pink;
    }
    .button-container {
     margin: 0 auto;
@@ -194,4 +211,14 @@ html {
     align-items: center;
     justify-content: center;
     font-size: 28pt;
+   }
+
+
+
+
+   #footer{
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    margin: 60px auto ;
    }
